@@ -15,4 +15,27 @@
     .descricao{
         width: 50%;
     }
+
+    .botao{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width:500px){
+    header .container{
+    display: flex;    
+    flex-direction: column;
+    }
+    .titulo{
+        margin-top: 5px;
+    
+    }
+
+    .filme-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+    .filme-principal .container{
+        width: 90%;
+        margin: 15px;
+    }
 }
